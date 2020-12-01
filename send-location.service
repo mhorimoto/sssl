@@ -1,0 +1,11 @@
+[Unit]
+Description = GPS Location Sender
+After = rc-local.service
+
+[Service]
+ExecStart = /usr/local/bin/send-location.py
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target

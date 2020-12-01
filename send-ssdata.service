@@ -1,0 +1,11 @@
+[Unit]
+Description = Shock Stock data Sender
+After = gpsd.service
+
+[Service]
+ExecStart = /usr/local/bin/send-ssdata.py
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
