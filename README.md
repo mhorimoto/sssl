@@ -6,7 +6,7 @@ Shock Stocker Serial Logger
 
 2020/12/02から鹿児島大学への道中で試験した。
 
-## sssl.py
+## send-ssdata.py
 
 衝撃測定装置から上がってきたデータを採取して上流になげる。
 
